@@ -1,0 +1,359 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario", 
+      "location": "features/steps.feature:4", 
+      "name": "check if the new balance gets added", 
+      "status": "failed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/steps.feature:5", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/expense.py:11"
+          }, 
+          "name": "the expense tab is visible and the user clicks on it", 
+          "result": {
+            "duration": 1.6363639831542969, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:6", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/expense.py:20"
+          }, 
+          "name": "the new expense page is visible", 
+          "result": {
+            "duration": 4.480882883071899, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features/steps.feature:7", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/expense.py:31"
+          }, 
+          "name": "the user add the expense", 
+          "result": {
+            "duration": 6.405555963516235, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:8", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/expense.py:42"
+          }, 
+          "name": "validate if the expense balance gets updated", 
+          "result": {
+            "duration": 0.3657829761505127, 
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/model.py\", line 1329, in run", 
+              "    match.run(runner.context)", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/matchers.py\", line 98, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"features/steps/expense.py\", line 44, in step_impl", 
+              "    assert context.ExpensePage.is_expense_dispalyed() is True", 
+              "AssertionError"
+            ], 
+            "status": "failed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario", 
+      "location": "features/steps.feature:12", 
+      "name": "check if the new income gets added", 
+      "status": "failed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/steps.feature:13", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/income.py:11"
+          }, 
+          "name": "the income tab is visible and the user clicks on it", 
+          "result": {
+            "duration": 3.6656739711761475, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:14", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/income.py:22"
+          }, 
+          "name": "the new income page is visible", 
+          "result": {
+            "duration": 3.162338972091675, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features/steps.feature:15", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/income.py:33"
+          }, 
+          "name": "the user add the income", 
+          "result": {
+            "duration": 6.927559852600098, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:16", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/income.py:44"
+          }, 
+          "name": "Validate if the total balance gets updated", 
+          "result": {
+            "duration": 0.36895084381103516, 
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/model.py\", line 1329, in run", 
+              "    match.run(runner.context)", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/matchers.py\", line 98, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"features/steps/income.py\", line 46, in step_impl", 
+              "    assert context.IncomePage.is_income_dispalyed() is True", 
+              "AssertionError"
+            ], 
+            "status": "failed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario", 
+      "location": "features/steps.feature:20", 
+      "name": "check if the new account gets added", 
+      "status": "passed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/steps.feature:21", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/add_account.py:12"
+          }, 
+          "name": "the user clicks on settings", 
+          "result": {
+            "duration": 3.4738659858703613, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:22", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/add_account.py:23"
+          }, 
+          "name": "the user selects account to add a new account", 
+          "result": {
+            "duration": 6.271586894989014, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:23", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/add_account.py:34"
+          }, 
+          "name": "the user add the new account details", 
+          "result": {
+            "duration": 15.513093948364258, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features/steps.feature:24", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/add_account.py:45"
+          }, 
+          "name": "the user chooses the account category", 
+          "result": {
+            "duration": 3.3340132236480713, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:25", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/add_account.py:57"
+          }, 
+          "name": "the new account should be visible", 
+          "result": {
+            "duration": 3.485987901687622, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario", 
+      "location": "features/steps.feature:28", 
+      "name": "check if the date filter is working", 
+      "status": "failed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/steps.feature:29", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/date_filter.py:13"
+          }, 
+          "name": "the user selects the navigation bar", 
+          "result": {
+            "duration": 3.3267910480499268, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features/steps.feature:30", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/date_filter.py:24"
+          }, 
+          "name": "the user selects the filter by week", 
+          "result": {
+            "duration": 3.736327886581421, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:31", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/date_filter.py:36"
+          }, 
+          "name": "the week for which expense is added should be visible", 
+          "result": {
+            "duration": 0.03864002227783203, 
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/model.py\", line 1329, in run", 
+              "    match.run(runner.context)", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/matchers.py\", line 98, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"features/steps/date_filter.py\", line 39, in step_impl", 
+              "    assert context.ExpenseByDate.validate_change_filter() is True", 
+              "  File \"/Users/sshresth/Documents/MonifyTest/features/pages/android/date_filter.py\", line 60, in validate_change_filter", 
+              "    week = self.get_element (*self.week_element)", 
+              "  File \"/Users/sshresth/Documents/MonifyTest/features/utils/base_page.py\", line 40, in get_element", 
+              "    raise e", 
+              "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8206", 
+              ""
+            ], 
+            "status": "failed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }, 
+    {
+      "keyword": "Scenario", 
+      "location": "features/steps.feature:34", 
+      "name": "check if the search and delete is working", 
+      "status": "failed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/steps.feature:35", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/search and delete.py:11"
+          }, 
+          "name": "the user clicks to search", 
+          "result": {
+            "duration": 3.020638942718506, 
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/model.py\", line 1329, in run", 
+              "    match.run(runner.context)", 
+              "  File \"/Users/sshresth/PycharmProjects/Automate_appium/venv/lib/python2.7/site-packages/behave/matchers.py\", line 98, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"features/steps/search and delete.py\", line 17, in step_impl", 
+              "    raise e", 
+              "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8206", 
+              ""
+            ], 
+            "status": "failed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features/steps.feature:36", 
+          "name": "the searched item is visible and the user selects it", 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/steps.feature:37", 
+          "name": "the user is able to delete the item", 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "features/steps.feature:2", 
+  "name": "Validate the monefy app by adding expenses and income", 
+  "status": "failed", 
+  "tags": [
+    "Android"
+  ]
+}
+]
