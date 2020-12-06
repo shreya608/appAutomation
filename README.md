@@ -44,5 +44,6 @@ Open a terminal and run "./run.sh"
 2. For the automatetd flow -8, the app searches the element but because the searched element was not accessible by xpath(Screenshot attached) the step fails. It can be made accessible by adding the resource id and then the test would work.
 3. For automated flow -9, the same problem. the elements were not accessible by either the xpath or the id.
 
+![Alt text](/./screenshots/ScreenshotReport1.png?raw=true "Dashboard")
 
 
