@@ -1,6 +1,7 @@
 ## Task1:
 https://github.com/shreya608/appAutomation/blob/master/charters/Charters.md#charters
 
+## Task2:
 ## Structure of the framework
 
 #### behave.ini
