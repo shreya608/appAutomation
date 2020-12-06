@@ -45,5 +45,8 @@ Open a terminal and run "./run.sh"
 3. For automated flow -9, the same problem. the elements were not accessible by either the xpath or the id.
 
 ![Alt text](/./screenshots/ScreenshotReport1.png?raw=true "Dashboard")
+![Alt text](/./screenshots/ScreenshotReport2.png?raw=true "Dashboard")
+
+
 
 
